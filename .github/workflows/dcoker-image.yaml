@@ -30,4 +30,4 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Push Docker image
-        run: docker push ramadevidyuthi2021/react1js
+        run: docker push ramadevidyuthi2021/reactnodejs
