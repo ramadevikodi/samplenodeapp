@@ -21,7 +21,7 @@ jobs:
         run: docker build -t react .
 
       - name: Tag the Docker image
-        run: docker tag react ramadevidyuthi2021/react1js
+        run: docker tag react ramadevidyuthi2021/reactnodejs
 
       - name: Docker login 
         uses: docker/login-action@v1
